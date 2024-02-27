@@ -10,8 +10,7 @@ class Tridiagonal_matrix {
         std::vector<double> matrix;
 
     public:
-        Tridiagonal_matrix(int size) : size_matrix(size), matrix(std::vector<double>(3 * size)) {};
-        Tridiagonal_matrix zero_field(int size);
+        Tridiagonal_matrix(int size) : size_matrix(size), matrix(std::vector<double>(3 * size, 0.0)) {};
          
         int size() const {
             return size_matrix;
@@ -19,5 +18,7 @@ class Tridiagonal_matrix {
 
         double &operator()(int i, int j);
 };
+
+std::vector<double> solver_method_run(const Tri_matrix::Tridiagonal_matrix &matrix, const std::vector<double> &free_coef);
 
 }

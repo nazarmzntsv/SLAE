@@ -1,8 +1,9 @@
-cmake_minimum_required(VERSION 3.14)
-set(CMAKE_CXX_STANDARD 20)
-project(SLAE_lib)
+cmake_minimum_required(VERSION 3.20)
+project(tridiagonal)
 
 add_subdirectory(src)
-add_subdirectory(tests)
 
-message("It works!")
+if (WITH_TESTS)
+    enable_testing()
+    add_subdirectory(tests)
+endif ()
