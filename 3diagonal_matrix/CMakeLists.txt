@@ -5,4 +5,4 @@ project(SLAE_lib)
 add_subdirectory(src)
 add_subdirectory(tests)
 
-message("It works")
+message("It works!")
