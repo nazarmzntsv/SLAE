@@ -24,12 +24,12 @@ class CSR{
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++){
                 if (A(i, j)!=0){
-                    v.push_back(A(i, j));
-                    c.push_back(j);
+                    v[i] = A(i, j);
+                    c[i] = j;
                     k = k + 1;
                 }
             }
-            r.push_back(k);
+            r[i + 1] = k;
         }
         v.shrink_to_fit();
         c.shrink_to_fit();
