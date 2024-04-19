@@ -5,8 +5,8 @@
 
 
 int main() {
-    std::vector<double> data{1,1,2,0,1,0,0,0,1};
-    dense_matrix <double> A(3, 3, data);
+    std::vector<double> data{3, 0, 1, 0, 0, 0, 1, 0, 0, 7, 2, 9, 2, 9, 8, 0};
+    dense_matrix <double> A(4, 4, data);
     std::cout << A(1, 0) << std::endl;
     std::vector<double> b{1, 3, 8};
     std::vector<double> res(3);

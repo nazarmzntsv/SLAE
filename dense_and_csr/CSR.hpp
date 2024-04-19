@@ -50,4 +50,10 @@ class CSR{
         }
         return result;
     }
+    T get_n() const {
+        return n;
+    }
+    T get_m() const {
+        return m;
+    }
 };   

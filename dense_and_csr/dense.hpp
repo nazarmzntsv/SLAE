@@ -17,10 +17,10 @@ class dense_matrix {
         }
         return result;
     }
-    Tip get_m() {
+    Tip get_m() const {
         return m;
     }
-    Tip get_n() {
+    Tip get_n() const {
         return n;
     }
     private:

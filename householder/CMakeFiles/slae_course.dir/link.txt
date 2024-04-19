@@ -1,0 +1,2 @@
+/usr/bin/ar qc libslae_course.a CMakeFiles/slae_course.dir/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o CMakeFiles/slae_course.dir/householder.cpp.o
+/usr/bin/ranlib libslae_course.a

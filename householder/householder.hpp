@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 
-#include "../DenseMatrix/dence_matrix.h"
-#include "../Vector/vector_matrix.h"
+#include "../dense_and_csr/dense.hpp"
+#include "../dense_and_csr/CSR.hpp"
 
 struct QRDecomposition {
     Matrix Q;

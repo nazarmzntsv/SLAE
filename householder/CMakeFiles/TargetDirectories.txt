@@ -1,0 +1,3 @@
+/home/nazar/SLAE/householder/CMakeFiles/slae_course.dir
+/home/nazar/SLAE/householder/CMakeFiles/edit_cache.dir
+/home/nazar/SLAE/householder/CMakeFiles/rebuild_cache.dir

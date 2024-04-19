@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(slae_course)
+set(CMAKE_CXX_STANDARD 17)
+file(GLOB_RECURSE householder_files *.cpp *.hpp)
+add_library(slae_course ${householder_files})
